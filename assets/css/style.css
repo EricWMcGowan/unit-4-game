@@ -1,0 +1,28 @@
+body {
+    background-image: url("../images/Glowing\ Background.jpg")
+}
+
+.pageContent {
+    margin: auto;
+    text-align: center;
+    color: white;
+
+}
+
+.numberToGet {
+    float: left;
+    margin-left: 25px;
+}
+
+.crystals {
+    margin-top: 50px;
+}
+
+.crystalImage {
+    width: 100px;
+    height: 100px;
+}
+
+.playerScore {
+    margin-top: 50px;
+}

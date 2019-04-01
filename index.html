@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <title>Crystal Game</title>
+</head>
+
+<body>
+    <div class="pageContent">
+        <div class="header">
+            <h1> Crystal Collector</h1>
+        </div>
+
+        <div class="instructions">
+            <h3>How To Play</h3>
+            <ol>
+                <li>You will be given a random number to reach at the beginning of the game. Which is labeled "Number
+                    to Get</li>
+                <li>Upon clicking on each crystal a different random number will be generated.</li>
+                <li>You must reach the exact number to get in order to win.</li>
+                <li>If you go over you lose.</li>
+                <li>Have fun!</li>
+
+            </ol>
+
+
+
+
+        </div>
+        <!-- <div class="numberToGet">
+            <h3>Number to Get:
+                <span id="randomNumber"></span></h3>
+        </div>
+
+        <div class="winsLosses">
+            <h3>Wins:
+                <span id="wins"></span>
+            </h3>
+
+            <h3>Losses:
+                <span id="losses"></span>
+            </h3>
+            
+        </div> -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h3>Number to Get:
+                        <span id="randomNumber"></span>
+                    </h3>
+                </div>
+                <div class="col-sm">
+                    <h3>Wins:
+                        <span id="wins"></span>
+                    </h3>
+                </div>
+                <div class="col-sm">
+                    <h3>Losses:
+                        <span id="losses"></span>
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="crystals">
+            <div class="row">
+                <div class="col-3">
+                    <img src="assets/images/crystal.jpg" class="crystalImage">
+                </div>
+                <div class="col-3">
+                    <img src="assets/images/crystal.jpg" class="crystalImage">
+                </div>
+                <div class="col-3">
+                    <img src="assets/images/crystal.jpg" class="crystalImage">
+                </div>
+                <div class="col-3">
+                    <img src="assets/images/crystal.jpg" class="crystalImage">
+                </div>
+            </div>
+        </div>
+        <div class="playerScore">
+            <h3>Player Total:
+                <span id="playerTotal"></span>
+            </h3>
+              </div>
+
+
+
+
+
+
+
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+</body>
+
+</html>
